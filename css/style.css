@@ -875,4 +875,32 @@ section {
     width: 100%;
     text-align: center;
   }
+
+  /* Header mobile */
+  .header {
+    padding: 1rem;
+    background: var(--color-bg);
+    border-bottom: 1px solid rgba(196, 127, 94, 0.2);
+  }
+
+  .nav {
+    position: relative;
+  }
+
+  .nav-links,
+  .nav-cta {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
 }
